@@ -75,15 +75,15 @@ public class SettingsMenu : MonoBehaviour
         switch (qualityIndex)
         {
             case 0: // quality level - very low
-                textureDropdown.value = 1;
+                textureDropdown.value = 3;
                 aaDropdown.value = 0;
                 break;
             case 1: // quality level - low
-                textureDropdown.value = 0;
+                textureDropdown.value = 2;
                 aaDropdown.value = 0;
                 break;
             case 2: // quality level - medium
-                textureDropdown.value = 0;
+                textureDropdown.value = 1;
                 aaDropdown.value = 0;
                 break;
             case 3: // quality level - high
@@ -96,7 +96,7 @@ public class SettingsMenu : MonoBehaviour
                 break;
             case 5: // quality level - ultra
                 textureDropdown.value = 0;
-                aaDropdown.value = 1;
+                aaDropdown.value = 2;
                 break;
         }
         
