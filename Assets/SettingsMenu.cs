@@ -138,7 +138,7 @@ public class SettingsMenu : MonoBehaviour
         if (PlayerPrefs.HasKey("AntiAliasingPreference"))
             aaDropdown.value = PlayerPrefs.GetInt("AntiAliasingPreference");
         else
-            resolutionDropdown.value = 1;
+            aaDropdown.value = 0;
 
         if (PlayerPrefs.HasKey("FullscreenPreference"))
             Screen.fullScreen = Convert.ToBoolean(PlayerPrefs.GetInt("FullscreenPreference"));
